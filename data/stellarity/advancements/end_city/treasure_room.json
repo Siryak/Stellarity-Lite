@@ -17,7 +17,7 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "stellarity:end_city/whos_the_thief_now",
+	"parent": "minecraft:end/enter_end_city",
 	"criteria": {
 		"obtain_head": {
 			"trigger": "minecraft:inventory_changed",
