@@ -16,7 +16,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:story/strengthened_by_fire",
+	"parent": "minecraft:story/enter_the_nether",
 	"criteria": {
 		"in_stronghold": {
 			"trigger": "minecraft:location",

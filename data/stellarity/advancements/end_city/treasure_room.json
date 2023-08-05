@@ -17,7 +17,7 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "minecraft:end/enter_end_city",
+	"parent": "minecraft:end/find_end_city",
 	"criteria": {
 		"obtain_head": {
 			"trigger": "minecraft:inventory_changed",
