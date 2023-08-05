@@ -57,19 +57,6 @@
 					]
 				}
 			]
-		},
-		{
-			"rolls": {
-				"min": 0,
-				"max": 2
-			},
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "stellarity:stronghold/random_potion"
-				}
-			]
 		}
 	]
 }

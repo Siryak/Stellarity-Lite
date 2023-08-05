@@ -195,12 +195,6 @@
 							"tag": "{Potion:\"minecraft:water\"}"
 						}
 					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 10,
-					"quality": 1,
-					"name": "stellarity:stronghold/random_potion"
 				}
 			]
 		}

@@ -1181,10 +1181,6 @@
 							]
 						}
 					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "stellarity:oreki_special_head_combo"
 				}
 			]
 		}

@@ -1,4 +1,3 @@
-function stellarity:items/main
 function stellarity:mechanics/main
 function stellarity:mobs/main
 function stellarity:visuals/main

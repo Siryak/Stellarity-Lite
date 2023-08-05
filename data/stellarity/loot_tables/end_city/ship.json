@@ -12,28 +12,6 @@
 					"type": "minecraft:alternatives",
 					"children": [
 						{
-							"type": "minecraft:loot_table",
-							"weight": 5,
-							"name": "stellarity:items/materials/pixie_dust",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:location_check",
-									"predicate": {
-										"biome": "stellarity:the_hallow"
-									}
-								}
-							]
-						},
-						{
 							"type": "minecraft:item",
 							"weight": 5,
 							"name": "minecraft:glowstone_dust",
@@ -192,27 +170,6 @@
 				{
 					"condition": "minecraft:random_chance",
 					"chance": 0.25
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "stellarity:items/trinkets/duskberry"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.5714
-				},
-				{
-					"condition": "minecraft:location_check",
-					"predicate": {
-						"biome": "stellarity:the_hallow"
-					}
 				}
 			]
 		},

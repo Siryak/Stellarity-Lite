@@ -1,4 +1,3 @@
-function #stellarity:dot/tick
 
 # All 'as @a at @s' utility checks happen every 10th tick
 

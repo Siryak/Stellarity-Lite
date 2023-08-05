@@ -24,11 +24,6 @@ advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=true
 # 'Free The End'
 advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=false}] only minecraft:end/kill_dragon
 
-# Activate Altar of The Accursed. Now we shall all witness horrible dark magic emerging and crafting fantastic gear!
-# Wonderful! Like ancient forces of darkness were always supposed to just miraculously connect some random
-# trash into things that are a lot better!
-execute as @e[type=marker,tag=stellarity.altar_of_accursed,tag=!stellarity.aota_activated] at @s run function stellarity:mechanics/altar_crafting/aota_activate
-
 # 500 seconds is about 8.3 minutes
 scoreboard players set #stellarity.dragon.ash_duration stellarity.misc 500
 

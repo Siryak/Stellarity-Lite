@@ -79,25 +79,9 @@ bossbar remove stellarity:crystal_count
 bossbar remove stellarity:eol
 
 schedule clear stellarity:loops/2_tick
-schedule clear stellarity:loops/3_tick
+schedule clear stellarity:loops/3_min
 schedule clear stellarity:loops/5_tick
-schedule clear stellarity:loops/6_tick
-schedule clear stellarity:loops/10_tick
-schedule clear stellarity:loops/1_second
 schedule clear stellarity:loops/5_second
-
-scoreboard objectives remove stellarity.dot.dark_decay.time
-scoreboard objectives remove stellarity.dot.dark_decay.damage
-scoreboard objectives remove stellarity.dot.dark_decay.delay
-scoreboard objectives remove stellarity.dot.dark_decay.progress
-scoreboard objectives remove stellarity.dot.frostburn.time
-scoreboard objectives remove stellarity.dot.frostburn.damage
-scoreboard objectives remove stellarity.dot.frostburn.delay
-scoreboard objectives remove stellarity.dot.frostburn.progress
-scoreboard objectives remove stellarity.dot.prismatic_inferno.time
-scoreboard objectives remove stellarity.dot.prismatic_inferno.damage
-scoreboard objectives remove stellarity.dot.prismatic_inferno.delay
-scoreboard objectives remove stellarity.dot.prismatic_inferno.progress
 
 scoreboard objectives remove fe.health
 scoreboard objectives remove fe.variable
