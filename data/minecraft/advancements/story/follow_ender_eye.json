@@ -9,11 +9,6 @@
 		"description": [
 			{
 				"translate": "advancements.story.follow_ender_eye.description"
-			},
-			". ",
-			{
-				"translate": "stellarity.advancements.follow_ender_eye.extra",
-				"fallback": "Something is definitely hidden there..."
 			}
 		],
 		"frame": "task",
