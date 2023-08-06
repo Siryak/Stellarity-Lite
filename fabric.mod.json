@@ -2,7 +2,7 @@
 	"schemaVersion":1,
 	"id":"stellarity",
 	"version":"2.1a",
-	"name":"Stellarity",
+	"name":"Stellarity Light",
 	"description":"Extreme rehaul and expansion of The End! 'We have End Update at home.'",
 	"authors":[
 		"kohara"
@@ -15,7 +15,7 @@
 		"Phoenix"
 	],
 	"contact":{
-		"sources":"https://github.com/Siryak/Stellarity-Lite"
+		"sources":"https://github.com/Siryak/Stellarity-Lite/"
 	},
 	"license":"LicenseRef-Custom",
 	"icon":"pack.png",
