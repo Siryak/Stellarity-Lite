@@ -1,19 +1,34 @@
 {
 	"schemaVersion":1,
-	"id":"mr_stellarity",
-	"version":"v2.0d",
-	"name":"Stellarity Light",
+	"id":"stellarity",
+	"version":"2.1a",
+	"name":"Stellarity",
 	"description":"Extreme rehaul and expansion of The End! 'We have End Update at home.'",
 	"authors":[
 		"kohara"
 	],
+	"contributors": [
+		"Hex",
+		"misode",
+		"Bush_King",
+		"Brokenemp",
+		"Phoenix"
+	],
 	"contact":{
 		"sources":"https://github.com/Siryak/Stellarity-Lite"
 	},
-	"license":"LicenseRef-",
+	"license":"LicenseRef-Custom",
 	"icon":"pack.png",
 	"environment":"*",
 	"depends":{
 		"fabric-resource-loader-v0":"*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/jEGF5fb"
+			},
+			"update_checker": true
+		}
 	}
 }
